@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon</title>
+
+  <style>
+    :root {
+      --blue: #354173;
+      --white: #f7f7f4;
+      --gold: #d4af37;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--blue);
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 10vw, 7rem);
+      font-weight: 700;
+      letter-spacing: -2px;
+    }
+
+    .coming {
+      color: var(--white);
+    }
+
+    .soon {
+      color: var(--gold);
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <span class="coming">Coming</span>
+    <span class="soon">Soon</span>
+  </h1>
+</body>
+</html>
